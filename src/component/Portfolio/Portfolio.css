@@ -1,0 +1,148 @@
+.portfolio {
+    background: var(--bg-color);
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    padding: 100px 0 50px;
+}
+
+
+.portfolio .container h2 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+.portfolio .container h2 span {
+    color: var(--text-color);
+    margin-right: 10px;
+}
+
+.portfolio-wrapper {
+    margin: 30px 30px 0;
+    background-color: transparent;
+    width: 290px;
+    height: 250px;
+    perspective: 1000px;
+    font-family: sans-serif;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5em;
+}
+
+.portfolio-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transition-timing-function: cubic-bezier(0.61, 0.98, 0.48, 1.01);
+    transform-style: preserve-3d;
+    border-radius: 15px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+    cursor: context-menu;
+}
+
+.portfolio-wrapper:hover .portfolio-box {
+    transform: rotate(180deg) rotateX(180deg);
+}
+
+.portfolio-front,
+.portfolio-info {
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+}
+
+.portfolio-front {
+    background: transparent;
+    color: #000;
+}
+
+.portfolio-info {
+    background: #000;
+    color: #fff;
+    transform: rotateY(180deg);
+}
+
+.portfolio-info:hover {
+    backface-visibility: visible;
+}
+
+.portfolio-box .portfolio-front img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.portfolio-info {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), var(--text-color));
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio-info h4 {
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+    color: var(--button-color);
+    margin: 0;
+}
+
+.portfolio-info p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin: 10px 10px 10px;
+    color: #fff;
+}
+
+.portfolio-info a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3em;
+    height: 3em;
+    background: var(--bg-color);
+    border-radius: 50%;
+}
+
+.portfolio-info .arrow {
+    font-size: 1em;
+    width: 20px;
+    height: 20px;
+    fill: var(--white);
+}
+
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 992px) {
+    .portfolio {
+        position: relative;
+        padding: 40px;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+}
+
+@media screen and (max-width: 567px) {
+
+}

@@ -1,0 +1,27 @@
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 18px;
+    list-style: none;
+    z-index: 1;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--white);
+    transition: 0.4s ease;
+}
+
+ul li .active {
+     color: var(--text-color);
+}
+
+ul li a:hover {
+    color: var(--text-color);
+}
+
+ul li a:active {
+    color: var(--text-color);
+}

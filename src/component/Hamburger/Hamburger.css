@@ -1,0 +1,19 @@
+
+.hamburger {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+    z-index: 10;
+}
+
+.burger {
+    width: 2.5rem;
+    height: 0.3rem;
+    margin: 8px;
+    border-radius: 10px;
+    background-color: white;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+}
