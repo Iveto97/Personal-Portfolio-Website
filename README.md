@@ -1,5 +1,7 @@
  # Personal Portfolio Website :girl:
- 
+ ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](./public/images/portfolio.png)
+
+
  ## :writing_hand: Table of Contents
  ## :bulb: Overview
  ## 
