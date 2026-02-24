@@ -5,5 +5,11 @@
 
  ## :writing_hand: Table of Contents
  ## :bulb: Overview
- <p>This is my personal portfolio.</p>
+    <p>This is my personal portfolio.</p>
+
+ ## :gear:Technologies Used
+ 
+ 1. HTML and CSS
+ 2. JavaScript
+ 3. React
  
