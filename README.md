@@ -4,10 +4,10 @@
 
 
  ## :writing_hand: Table of Contents
- # Overview
- # Features
- # Sections
- # Technologies Used
+  1. :white_check_mark: Overview
+  2. :white_check_mark: Features
+  3. :white_check_mark: Sections
+  4. :white_check_mark: Technologies Used
 
  ## :bulb: Overview
 
