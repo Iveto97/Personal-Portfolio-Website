@@ -4,15 +4,14 @@
 
 
  ## :writing_hand: Table of Contents
+ # Overview
+ # Features
+ # Sections
+ # Technologies Used
+
  ## :bulb: Overview
 
 <p>This is my personal portfolio website where I showcase my projects, skills, and passion for software development. You can download my CV using the "Download" button or contact me through the built-in contact form.</p>
-
- ## :gear:Technologies Used
-
- 1. HTML and CSS
- 2. JavaScript
- 3. React
 
  ## :airplane: Features
 
@@ -28,3 +27,8 @@
  3. Portfolio
  4. Contact
 
+ ## :gear:Technologies Used
+
+ 1. HTML and CSS
+ 2. JavaScript
+ 3. React
