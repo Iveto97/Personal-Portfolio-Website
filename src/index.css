@@ -22,11 +22,12 @@
 }
 
 [data-theme="dark"] {
-    --text-color:#2d2d2d ;
+    --text-color: #2d2d2d;
     --button-color: #ffc448;
-    --bg-color: #e9c46a; /**/
+    --bg-color: #e9c46a;
+    /**/
     --white: #fff;
-     --white-change: #000;
+    --white-change: #000;
     --black: #000;
     --black-change: #fff;
     --mob-color: #2d2d2d;
@@ -209,6 +210,10 @@
     .about-right {
         flex: 0.9;
     }
+
+    .contact {
+        padding: 0px 0 50px;
+    }
 }
 
 @media screen and (max-width: 567px) {
@@ -250,5 +255,10 @@
 
     .about-info h3 {
         font-size: 1.3em;
+    }
+
+
+    .contact {
+        padding: 0px 0 50px;
     }
 }
