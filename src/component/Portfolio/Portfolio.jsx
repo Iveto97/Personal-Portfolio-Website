@@ -7,6 +7,10 @@ function Portfolio() {
         <h2>
           Some of my <span>Projects</span>
         </h2>
+        <hr />
+        <p className="portfolio-description">
+          Here are some of the projects I've worked on:
+        </p>
         <div className="portfolio-wrapper">
           <div className="portfolio-box">
             <div className="portfolio-front">
