@@ -19,6 +19,9 @@
     --social-links: #fff;
     --info-text: #c3c3c3;
     --border-color: #ffc448;
+    --viridian-light: #4CFF7E;
+    --atomic-turquoise: #68E7F0;
+    --soft-purple: #B38DEC;
 }
 
 [data-theme="dark"] {
