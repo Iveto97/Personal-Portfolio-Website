@@ -92,7 +92,7 @@ function Portfolio() {
           Here are some of the projects I've worked on:
         </p>
         <div className="projects-grid">
-          {projects.map(project => <CardCreator data={project}/>)}
+          {projects.map(project => <CardCreator key={project.title} data={project}/>)}
         </div>
       </div>
     </section>
