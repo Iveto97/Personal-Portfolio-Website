@@ -20,7 +20,7 @@ export default function About() {
   return (
     <section id="about" className="about">
       <div className="container">
-        <div className="about-wrapper">
+        <div className="about-wrap">
           <div className="about-left">
             <img src="./images/about-image.JPG" alt="" />
           </div>

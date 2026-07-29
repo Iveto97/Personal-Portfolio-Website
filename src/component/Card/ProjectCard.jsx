@@ -2,6 +2,7 @@ import "./ProjectCard.css"
 
 import { FaGithub } from "react-icons/fa";
 import { FaEye } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function CardCreator({ data }) {
     return (
@@ -21,8 +22,8 @@ export default function CardCreator({ data }) {
                 {data.tags.map(tag => <span key={tag.name} className={tag.color}>{tag.name}</span>)}
              </div>
              <div className="project-buttons">
-              <a href={data.demo} target="_blank" rel="noopener noreferrer" className="btn green"><FaEye className="btn-icon" /> View Project</a>
-              <a href={data.github} target="_blank" rel="noopener noreferrer" className="btn white"><FaGithub className="btn-icon" /> View Code</a>
+              <Link to={`/project/${data.id}`} target="_self" rel="noopener noreferrer" className="btn green"><FaEye className="btn-icon" /> View Project</Link>
+              <Link to={data.github} target="_blank" rel="noopener noreferrer" className="btn white"><FaGithub className="btn-icon" /> View Code</Link>
              </div>
             </div>
           </div>
