@@ -102,7 +102,7 @@ export default function Project() {
             <SectionTitle icon={<RiLightbulbAiLine className="section-icon icon-orange" />} title="What I learned" />
             <p className="about-project">{project.knowledge}</p>
             <SectionTitle icon={<SlPicture className="section-icon icon-green" />} title="Screenshots" />
-            {<Lightbox data={project.gallery} />}
+            {<Lightbox data={project.gallery} title={project.title} />}
           </div>
         </div>
         <div className="row project-evolution">

@@ -221,3 +221,24 @@
 .future li {
     color: var(--text);
 }
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+
+}
+
+@media screen and (max-width: 768px) {
+.project-summary {
+    grid-template-columns: repeat(1, 1fr);
+}
+}
+
+@media screen and (max-width: 568px) {
+   .description {
+    font-size: 14px;
+   }
+}

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "./Lightbox.css";
 
-export default function Lightbox({ data }) {
+export default function Lightbox({ data, title }) {
   const [isOpen, setIsOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -53,7 +53,7 @@ export default function Lightbox({ data }) {
           <div className="column" key={index}>
             <img
               src={image}
-              alt="Stonehenge, England"
+              alt={title}
               className="gallery-item"
               onClick={() => showImage(index)}
             />
@@ -99,7 +99,7 @@ export default function Lightbox({ data }) {
             </button>
 
             <div className="caption-container">
-              <p id="caption"></p>
+              <p id="caption">{title}</p>
             </div>
 
             <div className="demo-images">
@@ -107,9 +107,9 @@ export default function Lightbox({ data }) {
                 <div className="column" key={index}>
                   <img
                     src={image}
-                    alt="Stonehenge, England"
+                    alt={title}
                     className="demo"
-                    onClick={(event) => showImage(event, index)}
+                    onClick={() => showImage(index)}
                   />
                 </div>
               ))}

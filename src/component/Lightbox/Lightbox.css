@@ -31,7 +31,7 @@
 }
 
 .column {
-  width: 200px;
+  width: 180px;
   height: 150px;
 }
 
@@ -162,7 +162,7 @@
 }
 
 img.demo {
-  opacity: 0.5;
+  opacity: 0.6;
   cursor: pointer;
   transition: .25s;
 }
@@ -173,4 +173,39 @@ img.demo:hover {
 
 img.demo.active {
   opacity: 1;
+}
+
+@media screen and (max-width: 1280px) {
+  .close-btn {
+    right: 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .close-btn {
+      width: 40px;
+  height: 40px;
+    right: 8px;
+  }
+
+  .gallery {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .column {
+    flex-basis: 50%;
+  box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 768px) {
+      .close-btn {
+        width: 35px;
+        height: 35px;
+        right: 3px;
+    }
+.lightbox-content {
+    width: 100%;
+}
 }
