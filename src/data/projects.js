@@ -4,8 +4,75 @@ import { MdOutlineAccountTree } from "react-icons/md";
 import { CgDisplayFlex } from "react-icons/cg";
 
 export const projects = [
-    {
+  {
     id: 1,
+    title: "Football team cards",
+    image: "../images/team_cards/team_cards.png",
+    description:
+      "A responsive football team cards application that dynamically displays player information based on the selected team. The project focuses on working with JavaScript objects, arrays, filtering data, and updating the DOM to create an interactive user experience.",
+    github:
+      "https://github.com/Iveto97/freeCodeCamp/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures/football-team-cards",
+    tags: [
+      {
+        name: "React",
+        color: "tag-blue",
+      },
+      {
+        name: "JavaScript",
+        color: "tag-orange",
+      },
+      {
+        name: "REST API",
+        color: "tag-green",
+      },
+      {
+        name: "CSS",
+        color: "tag-purple",
+      },
+    ],
+    about:
+      "Football Team Cards is a JavaScript project that allows users to explore different football teams and view detailed information about their players. Team data is stored in JavaScript objects and rendered dynamically, giving users a simple and interactive way to browse players without reloading the page.",
+    features: [
+      "Display football team information",
+      "Dynamically generate player cards",
+      "Filter and render data from JavaScript objects",
+      "Responsive card layout",
+      "Clean and intuitive user interface",
+      "Dynamic DOM updates",
+    ],
+    technologies: [
+      {
+        name: "HTML5",
+        icon: FaHtml5,
+        color: "html",
+      },
+      {
+        name: "CSS3",
+        icon: FaCss3Alt,
+        color: "css",
+      },
+      { name: "JavaScript (ES6+)", icon: FaJs, color: "js" },
+      { name: "DOM Manipulation", icon: MdOutlineAccountTree, color: "react-router" },
+    ],
+    knowledge:
+      "This project helped me improve my understanding of working with complex JavaScript objects and arrays while practicing dynamic DOM manipulation. I also gained more experience organizing application data, rendering components programmatically, and writing cleaner, reusable code that separates data from presentation.",
+    challenges:
+      "One of the main challenges was organizing the football team data in a scalable way and dynamically generating the player cards without repeating code. Another challenge was keeping the UI synchronized with the selected team while ensuring the application remained easy to maintain and extend.",
+    future: [
+      "Add a player search feature",
+      "Filter players by position",
+      "Add player statistics",
+      "Fetch team data from an external API",
+      "Add dark/light mode",
+    ],
+    gallery: [
+       "../images/team_cards/team_cards_1.png",
+       "../images/team_cards/team_cards_2.png",
+       "../images/team_cards/team_cards_3.png",
+    ],
+  },
+  {
+    id: 2,
     title: "Lightbox Viewer",
     image: "../images/lightbox/lightbox_1.png",
     description:
@@ -17,7 +84,8 @@ export const projects = [
       { name: "DOM", color: "tag-green" },
     ],
     demo: "https://your-demo-link.netlify.app",
-    github: "https://github.com/Iveto97/freeCodeCamp/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures/lightbox-viewer",
+    github:
+      "https://github.com/Iveto97/freeCodeCamp/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures/lightbox-viewer",
     gallery: [
       "../images/lightbox/lightbox_1.png",
       "../images/lightbox/lightbox_2.png",
@@ -52,11 +120,11 @@ export const projects = [
       { name: "CSS3", icon: FaCss3Alt, color: "css" },
       { name: "HTML5", icon: FaHtml5, color: "html" },
     ],
-     knowledge:
+    knowledge:
       "This project strengthened my understanding of DOM manipulation, event handling, and state management in vanilla JavaScript. It also helped me improve my ability to organize code into reusable functions, making the application easier to read, maintain, and extend while focusing on creating a smooth user experience.",
-     challenges:
-    "One of the main challenges in this project was keeping the lightbox state synchronized while users navigated through images using different interactions, including thumbnail clicks, navigation buttons, and keyboard shortcuts. Another challenge was organizing the JavaScript code into small, reusable functions to keep the application maintainable as new features were added.",
-   future: [
+    challenges:
+      "One of the main challenges in this project was keeping the lightbox state synchronized while users navigated through images using different interactions, including thumbnail clicks, navigation buttons, and keyboard shortcuts. Another challenge was organizing the JavaScript code into small, reusable functions to keep the application maintainable as new features were added.",
+    future: [
       "Add smooth fade and zoom animations",
       "Support touch swipe gestures on mobile devices",
       "Lazy-load images for better performance",
@@ -66,7 +134,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Currency Converter",
     image: "../images/currency_converter_react.png",
     description:
@@ -129,7 +197,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Ninom",
     image: "../images/ninom/ninom.png",
     description:
@@ -194,7 +262,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Games Play",
     image: "../images/games-play.png",
     description: "Browse games, register and manage your own game collection.",
@@ -265,5 +333,4 @@ export const projects = [
       "https://cdn.freecodecamp.org/curriculum/labs/stonehenge-thumbnail.jpg",
     ],
   },
-
 ];
