@@ -31,7 +31,7 @@
 .back-btn {
     display: block;
     text-decoration: none;
-    color: var(--info-text);
+    color: var(--text);
     font-size: 15px;
     margin-bottom: 20px;
 }
@@ -46,7 +46,7 @@
     font-weight: 400;
     line-height: 1.4em;
     text-align: left;
-    color: var(--info-text);
+    color: var(--text);
     margin-bottom: 20px;
 }
 
@@ -93,7 +93,7 @@
     display: flex;
     text-decoration: none;
     color: var(--white);
-    border: 1px solid var(--info-text);
+    border: 1px solid var(--text);
     border-radius: 5px;
     padding: 15px;
     text-align: center;
@@ -151,7 +151,7 @@
 }
 
 .icon-orange {
-    color: var(--text-color);
+    color: var(--button-color);
 }
 
 .icon-blue, .react {
@@ -174,7 +174,7 @@
     margin-bottom: 20px;
     line-height: 1.5rem;
     font-weight: 500;
-    color: var(--info-text);
+    color: var(--text);
 }
 
 .features {
@@ -193,7 +193,7 @@
 }
 
 .feature {
-    color: var(--info-text);
+    color: var(--text);
     font-size: 16px;
     display: inherit;
     align-items: center;
@@ -206,7 +206,7 @@
 }
 
 .project-challenge {
-    color: var(--info-text);
+    color: var(--text);
     line-height: 1.5rem;
 }
 
@@ -219,5 +219,5 @@
 }
 
 .future li {
-    color: var(--info-text);
+    color: var(--text);
 }
