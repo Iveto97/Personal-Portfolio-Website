@@ -235,6 +235,18 @@
 .project-summary {
     grid-template-columns: repeat(1, 1fr);
 }
+
+.project-details{
+        grid-auto-flow: row;
+    grid-template-columns: repeat(1, 1fr);
+}
+.info-column:not(:last-child) {
+    border-bottom: 1px solid rgba(195, 195, 195, .2);
+    border-right: none;
+}
+.project-evolution {
+    grid-template-columns: 1fr;
+}
 }
 
 @media screen and (max-width: 568px) {

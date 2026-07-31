@@ -208,4 +208,8 @@ img.demo.active {
 .lightbox-content {
     width: 100%;
 }
+
+    .gallery {
+        flex-direction: row;
+    }
 }
