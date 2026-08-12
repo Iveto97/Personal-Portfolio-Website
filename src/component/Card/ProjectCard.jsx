@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function CardCreator({ data }) {
     return (
-          <div className="portfolio-box">
+          <div className="portfolio-box" role="tabpanel" >
             <div className="portfolio-front">
               <img
                 src={data.image}

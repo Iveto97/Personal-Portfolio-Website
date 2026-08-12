@@ -23,7 +23,7 @@
     margin-right: 10px;
 }
 
-.container hr {
+.title-line{
     width: 50px;
     height: 3px;
     background: var(--text-color);
@@ -45,6 +45,32 @@
     gap:2rem;
 }
 
+div[role="tablist"] {
+    border: 2px solid var(--mob-color);
+    padding: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+button[role="tab"] {
+    color: var(--white);
+    background-color: transparent;
+    margin: 0 10px;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    letter-spacing: .5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button[role="tab"]:hover {
+    border-bottom: 2px solid var(--text-color);
+    color: var(--text-color);
+}
 
 @media screen and (max-width: 1280px) {
         .div {

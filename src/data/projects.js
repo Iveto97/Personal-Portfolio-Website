@@ -7,6 +7,7 @@ export const projects = [
   {
     id: 1,
     title: "Football team cards",
+    category:"javascript",
     image: "../images/team_cards/team_cards.png",
     description:
       "A responsive football team cards application that dynamically displays player information based on the selected team. The project focuses on working with JavaScript objects, arrays, filtering data, and updating the DOM to create an interactive user experience.",
@@ -74,6 +75,7 @@ export const projects = [
   {
     id: 2,
     title: "Lightbox Viewer",
+    category:"javascript",
     image: "../images/lightbox/lightbox_1.png",
     description:
       "An interactive image gallery that displays full-size photos in a modal with keyboard navigation, thumbnail preview, and smooth user interactions.",
@@ -136,6 +138,7 @@ export const projects = [
   {
     id: 3,
     title: "Currency Converter",
+    category:"react",
     image: "../images/currency_converter_react.png",
     description:
       "Calculate live currency and foreign exchange rates with the currency converter.",
@@ -199,6 +202,7 @@ export const projects = [
   {
     id: 4,
     title: "Ninom",
+    category: "react",
     image: "../images/ninom/ninom.png",
     description:
       "Browse landmarks, register, create, edit and delete your own landmarks.",
@@ -264,6 +268,7 @@ export const projects = [
   {
     id: 5,
     title: "Games Play",
+    category: "react",
     image: "../images/games-play.png",
     description: "Browse games, register and manage your own game collection.",
     github: "https://github.com/Iveto97/Games-Play",
