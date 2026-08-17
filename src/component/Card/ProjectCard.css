@@ -135,8 +135,8 @@
 }
 
 .green {
-    border: 1px solid var(--viridian-light);
-    color: var(--viridian-light);
+    border: 1px solid var(--button-color);
+    color: var(--button-color);
 }
 
 .white {

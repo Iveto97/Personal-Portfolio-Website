@@ -14,26 +14,26 @@
     font-weight: bold;
     text-align: center;
     letter-spacing: 0.5px;
-    color: var(--white);
+    color: var(--white-change);
     margin-bottom: 10px;
 }
 
 .portfolio .container h2 span {
-    color: var(--text-color);
+    color: var(--button-color);
     margin-right: 10px;
 }
 
 .title-line{
     width: 50px;
     height: 3px;
-    background: var(--text-color);
+    background: var(--button-color);
     border: none;
     margin: 0 auto;
 }
 
 .portfolio-description {
     font-size: 1.1rem;
-    color: #f2f2f2;
+    color: var(--atomic-grey);
     opacity: 0.8;
     text-align: center;
     margin: 20px auto 40px;
@@ -54,7 +54,7 @@ div[role="tablist"] {
 }
 
 button[role="tab"] {
-    color: var(--white);
+    color: var( --white-change);
     background-color: transparent;
     margin: 0 10px;
     padding: 20px;
@@ -68,8 +68,8 @@ button[role="tab"] {
 }
 
 button[role="tab"]:hover {
-    border-bottom: 2px solid var(--text-color);
-    color: var(--text-color);
+    border-bottom: 2px solid var(--button-color);
+    color: var(--button-color);
 }
 
 @media screen and (max-width: 1280px) {
