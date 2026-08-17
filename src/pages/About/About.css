@@ -98,6 +98,15 @@
     .about-wrapper {
         padding: 20px;
     }
+
+
+    .about-right {
+        padding-left: 30px;
+    }
+
+    .about .about-left img {
+        margin-left: 30px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -125,6 +134,7 @@
     }
 
     .about-info p {
+        padding-left: 30px;
         width: 100%;
     }
 
@@ -140,15 +150,30 @@
         height: 350px;
     }
 
+    .about-wrap {
+        display: grid;
+        justify-content: space-between;
+    }
+
     .about-right {
         flex: 0.9;
     }
 }
 
 @media screen and (max-width: 567px) {
+
+    .about-left {
+        margin: auto;
+    }
+
     .about .about-left img {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .about-wrap {
+        display: grid;
+        justify-content: space-between;
     }
 
     .about-info h2 {
