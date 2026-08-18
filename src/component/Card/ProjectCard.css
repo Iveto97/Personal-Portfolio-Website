@@ -4,7 +4,7 @@
     position: relative;
     display: grid;
     justify-content: space-between;
-    width: 330px;
+    width: 410px;
     height: auto;
     background-color: var(--cosmos);
     border: 1px solid  #595959;
@@ -33,6 +33,7 @@
 
 .portfolio-box .portfolio-front img {
     display: block;
+    padding: 10px;
     width: 100%;
     height: 100%;
     object-fit: cover;
