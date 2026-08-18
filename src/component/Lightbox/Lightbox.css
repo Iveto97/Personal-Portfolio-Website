@@ -179,6 +179,10 @@ img.demo.active {
   .close-btn {
     right: 9px;
   }
+  .gallery {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -198,7 +202,6 @@ img.demo.active {
   }
 
   .column {
-    flex-basis: 50%;
   box-sizing: border-box;
   }
 }
