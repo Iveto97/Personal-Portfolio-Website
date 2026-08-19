@@ -139,7 +139,7 @@ export const projects = [
     id: 3,
     title: "Currency Converter",
     category:"react",
-    image: "../images/currency_converter_react.png",
+    image: "../images/currency_converter/currency_converter_react.png",
     description:
       "Calculate live currency and foreign exchange rates with the currency converter.",
     github:
@@ -194,9 +194,9 @@ export const projects = [
       "Show historical exchange rates chart",
     ],
     gallery: [
-      "https://cdn.freecodecamp.org/curriculum/labs/stonehenge-thumbnail.jpg",
-      "../images/currency_converter_react.png",
-      "https://cdn.freecodecamp.org/curriculum/labs/stonehenge-thumbnail.jpg",
+      "../images/currency_converter/currency_converter_react.png",
+      "../images/currency_converter/currency_converter_react_1.png",
+      "../images/currency_converter/currency_converter_react_2.png",
     ],
   },
   {
