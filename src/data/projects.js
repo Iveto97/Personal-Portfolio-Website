@@ -97,7 +97,7 @@ export const projects = [
       "Lightbox Viewer is an interactive image gallery built with vanilla JavaScript. Users can open images in a full-screen modal, navigate between them using buttons or keyboard arrows, and browse thumbnails without leaving the gallery. The project focuses on creating a smooth and intuitive user experience while practicing DOM manipulation and event handling.",
     features: [
       "Responsive image gallery",
-      " Full-size image preview",
+      "Full-size image preview",
       "Previous and next navigation",
       "Keyboard support (Arrow Left, Arrow Right, Escape)",
       "Thumbnail navigation",
@@ -227,12 +227,13 @@ export const projects = [
       },
     ],
     about:
-      "A modern e-commerce web application for browsing and purchasing perfumes. The project includes product catalog, detailed product pages, shopping cart functionality, and a responsive user interface focused on providing a smooth shopping experience.",
+      "A modern web application for browsing and adding landmarks. The project includes destination catalog, detailed pages, comment functionality, and a responsive user interface focused on providing a smooth browsing experience.",
     features: [
-      "Product details page",
-      "Shopping cart functionality",
-      "Dynamic product rendering",
+      "Destination details page",
+      "Destination carts",
+      "Dynamic destination rendering",
       "Clean and intuitive user interface",
+      "Destination comment and like functionality",
     ],
     technologies: [
       {
@@ -246,14 +247,13 @@ export const projects = [
       { name: "Vite", icon: SiVitepress, color: "vite" },
     ],
     knowledge:
-      "This project improved my understanding of component-based architecture, state management, React Router, reusable UI components, and building a scalable e-commerce application. I also gained experience designing responsive layouts and organizing application data for future backend integration.",
+      "This project improved my understanding of component-based architecture, state management, React Router, reusable UI components, and building a scalable e-commerce application. I also gained experience designing responsive layouts and organizing application data.",
     challenges:
       "One of the biggest challenges was organizing the application structure so it remains scalable as new features are added. Another challenge was managing shared state between different parts of the application while keeping the components reusable and easy to maintain.",
     future: [
       "User authentication",
       "Wishlist functionality",
-      "Product search and filtering",
-      "Product reviews and ratings",
+      "Destination search and filtering",
       "Admin dashboard",
       "Backend integration with database",
       "Responsive design for desktop and mobile",
