@@ -1,18 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
 
-const CV_URL = 'http://localhost:5173/CV-eng.pdf';
-
 function Home() {
-
-  const downloadCV = (url) => {
-    const fileName = url.split('/').pop();
-    const aTag = document.createElement('a');
-    aTag.href = url;
-    aTag.setAttribute("download", fileName);
-    document.body.appendChild(aTag);
-    aTag.click();
-  }
 
   return (
     <>
@@ -30,8 +19,8 @@ function Home() {
                 to grow professionally and work in a team-oriented environment. 
               </p>
               <div className="btn">
-                <button onClick={() => downloadCV(CV_URL)}>Download</button>
-                <Link to="/contact"><button>Hire me now</button></Link>
+                <a href="https://drive.google.com/file/d/1L1UPa9z4R9mJ9nhHMaUfU24fLO7rOY57/view?usp=drive_link" className="infBtn" target="_blank" download="true" >Download</a>
+                <Link to="/contact" className="infBtn">Hire me now</Link>
               </div>
               <div className="social">
                 <div className="social-links">

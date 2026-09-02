@@ -48,10 +48,18 @@ export default function Project() {
               ))}
             </div>
             <div className="btn-container">
-              <button className="demo-btn" disabled>Live Demo <MdOutlineOpenInNew className="new" /></button>
-              {/* <a href="#" className="demo-btn">
-                Live Demo <MdOutlineOpenInNew className="new" />
-              </a> */}
+              {project.liveDemo ? (
+                <a
+                  href={project.liveDemo}
+                  className="demo-btn"
+                  target="_blank"
+                  rel="noopener noreferrer">Live Demo <MdOutlineOpenInNew className="new" /></a>
+              ) : <a
+                  href="#"
+                  className="demo-btn disabled"
+                  target="_blank"
+                  rel="noopener noreferrer">Live Demo <MdOutlineOpenInNew className="new" /></a>
+                }
               <a
                 href={project.github}
                 className="repo-btn"
