@@ -207,6 +207,7 @@ export const projects = [
     description:
       "Browse landmarks, register, create, edit and delete your own landmarks.",
     github: "https://github.com/Iveto97/Ninom",
+    liveDemo: "https://ninome.netlify.app/",
     tags: [
       {
         name: "React",
@@ -228,10 +229,8 @@ export const projects = [
     about:
       "A modern e-commerce web application for browsing and purchasing perfumes. The project includes product catalog, detailed product pages, shopping cart functionality, and a responsive user interface focused on providing a smooth shopping experience.",
     features: [
-      "Browse perfumes by category",
       "Product details page",
       "Shopping cart functionality",
-      "Responsive design for desktop and mobile",
       "Dynamic product rendering",
       "Clean and intuitive user interface",
     ],
@@ -255,9 +254,9 @@ export const projects = [
       "Wishlist functionality",
       "Product search and filtering",
       "Product reviews and ratings",
-      "Online payment integration",
       "Admin dashboard",
       "Backend integration with database",
+      "Responsive design for desktop and mobile",
     ],
     gallery: [
       "../images/ninom/ninom_1.png",

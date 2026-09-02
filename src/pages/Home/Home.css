@@ -41,6 +41,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
+    letter-spacing: 1px;
     color: var(--info-text);
     mask-border: 50px;
     margin-bottom: 35px;
@@ -53,9 +54,10 @@
     gap: 20px;
 }
 
-.left .btn button {
+.left .btn .infBtn {
     font-size: 14px;
     font-weight: 600;
+    text-decoration: none;
     padding: 12px 24px;
     border-radius: 6px;
     color: var(--white);
@@ -65,24 +67,24 @@
     transition: 0.3s ease-in;
 }
 
-.left .btn button:first-child {
+.left .btn .infBtn:first-child {
     background: var(--button-color);
     border: 2px solid var(--button-color);
 }
 
-.left .btn button:first-child:hover {
+.left .btn .infBtn:first-child:hover {
     background: var(--black);
     color: var(--button-color);
     transform: translateY(-5px);
 }
 
-.left .btn button:last-child {
+.left .btn .infBtn:last-child {
     background: var(--black);
     color: var(--white);
     border: 2px solid var(--black);
 }
 
-.left .btn button:last-child:hover {
+.left .btn .infBtn:last-child:hover {
     background: var(--white);
     color: var(--black);
     transform: translateY(-5px);

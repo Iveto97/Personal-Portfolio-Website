@@ -85,6 +85,10 @@
     margin-right: 20px;
 }
 
+.disabled {
+pointer-events: none;
+}
+
 .new {
     margin-left: 5px;
 }
