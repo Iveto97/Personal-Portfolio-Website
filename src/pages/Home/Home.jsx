@@ -19,7 +19,7 @@ function Home() {
                 to grow professionally and work in a team-oriented environment. 
               </p>
               <div className="btn">
-                <a href="https://drive.google.com/file/d/1L1UPa9z4R9mJ9nhHMaUfU24fLO7rOY57/view?usp=drive_link" className="infBtn" target="_blank" download="true" >Download</a>
+                <a href="#" className="infBtn" target="_blank" download="true">Download</a>
                 <Link to="/contact" className="infBtn">Hire me now</Link>
               </div>
               <div className="social">
