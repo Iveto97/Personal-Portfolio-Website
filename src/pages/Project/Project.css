@@ -166,12 +166,16 @@ pointer-events: none;
     color: #FE7C40;
 }
 
-.css {
+.css, .postgre {
     color: #018CCD;
 }
 
 .js {
     color: #EEEE2E;
+}
+
+.express, .git {
+    color: white;
 }
 
 .about-project {

@@ -1,7 +1,9 @@
-import { FaReact, FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa";
-import { SiVitepress, SiReactrouter } from "react-icons/si";
+import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaNodeJs  } from "react-icons/fa";
+import { SiVitepress, SiReactrouter, SiExpress  } from "react-icons/si";
 import { MdOutlineAccountTree } from "react-icons/md";
 import { CgDisplayFlex } from "react-icons/cg";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { FaGear, FaGithub } from "react-icons/fa6";
 
 export const projects = [
   {
@@ -262,6 +264,69 @@ export const projects = [
       "../images/ninom/ninom_1.png",
       "../images/ninom/ninom_2.png",
       "../images/ninom/ninom_3.png",
+    ],
+  },
+  {
+    id: 5,
+    title: "Green Compass — Travel Discovery Platform",
+    category: "react",
+    image: "../images/green_compass/green_compass.png",
+    description:
+      "A React-based travel discovery platform dedicated to Bulgaria’s natural, historical, and cultural landmarks. Features destination browsing, detailed place pages, travel articles, and REST API integration with a PostgreSQL database. Built with a custom nature-inspired design and a responsive layout.",
+    github: "https://github.com/Iveto97/green-compass",
+    liveDemo: "https://green-compass.netlify.app/",
+    tags: [
+      {
+        name: "React",
+        color: "tag-blue",
+      },
+      {
+        name: "Node.js",
+        color: "tag-green",
+      },
+      {
+        name: "Express",
+        color: "tag-green",
+      },
+      {
+        name: "PostgreSQL",
+        color: "tag-blue",
+      },
+    ],
+    about:
+      "Green Compass is a travel discovery web application focused on exploring Bulgaria’s natural, historical, and cultural landmarks. It allows users to discover destinations, explore detailed place information, and read travel articles designed to inspire new adventures. The project features a custom visual identity inspired by nature, exploration, and vintage maps, combined with a responsive interface and reusable React components. I developed the frontend using React and integrated it with a Node.js and Express API connected to a PostgreSQL database.",
+    features: [
+      "Browse destinations and explore detailed information about each place",
+      "Organize destinations by categories",
+      "Read travel articles featuring Bulgarian landmarks and practical travel inspiration",
+      "Retrieve and display content through REST API integration",
+      "Responsive layout for different screen sizes",
+    ],
+    technologies: [
+      {name: "React",icon: FaReact,color: "react",},
+      { name: "JavaScript (ES6+)", icon: FaJs, color: "js" },
+      { name: "CSS3", icon: FaCss3Alt, color: "css" },
+      { name: "HTML5", icon: FaHtml5, color: "html" },
+      { name: "Node.js", icon: FaNodeJs, color: "vite" },
+      { name: "Express.js", icon: SiExpress , color: "express" },
+      { name: "PostgreSQL", icon: BiLogoPostgresql  , color: "postgre" },
+      { name: "REST API", icon: FaGear , color: "postgre" },
+      { name: "GitHub", icon: FaGithub  , color: "git" },
+    ],
+    knowledge:
+      "This project improved my React skills by building reusable components and managing dynamic content and how to connect a frontend application to a REST API and retrieve data from a PostgreSQL database. During backend development I gained practical experience with Node.js and Express.js also I improved my understanding of responsive design and creating a consistent visual identity.",
+    challenges:
+      "One of the biggest challenges was frontend, backend, and PostgreSQL database integration into a working application. Another challenge was organizing structured article content and dynamic rendering of different content types. I had to troubleshoot some issues with API requests and data fetching, ensuring that the application remained responsive and user-friendly.",
+    future: [
+      "Improve performance by optimizing images and reducing loading times.",
+      "Enhance accessibility and refine the responsive experience across devices.",
+      "Expand the collection of destinations and travel articles.",
+      "Improve error handling and loading states for a smoother user experience.",
+    ],
+    gallery: [
+      "../images/green_compass/green_compass_1.png",
+      "../images/green_compass/green_compass_2.png",
+      "../images/green_compass/green_compass_3.png",
     ],
   },
 ];
